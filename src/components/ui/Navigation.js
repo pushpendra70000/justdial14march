@@ -9,13 +9,7 @@ export default function Navigation() {
             <Navbar bg="light" expand="lg">
                 <Container fluid>
                     <Navbar.Brand href="#home"  className='m-0 ,p-o'>
-                        <img
-                        src={logo}
-                        width="100"
-                        height="30"
-                        className="d-inline-block align-top"
-                        alt="React Bootstrap logo"
-                        />
+                        <img src={logo} width="100" height="30" className="d-inline-block align-top" alt="React Bootstrap logo"/>
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarScroll" />
                     <Navbar.Collapse id="navbarScroll">
